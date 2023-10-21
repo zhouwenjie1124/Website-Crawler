@@ -38,12 +38,6 @@ def search_a_keyword(keyword):
     search_bar.send_keys(Keys.RETURN)  # press enter to get the search result
     time.sleep(operate_delay)
 
-
-def save_the_result(produts):
-    import json
-    with open('first_page_desctiption.json', 'w') as f:
-        json.dump(produts, f, indent=4)
-
     # ---------------------------------------------------------------------------------------
 
 
